@@ -31,6 +31,8 @@ function App() {
       </p>
 
       {/* Include the About component here */}
+      
+      
     </>
   
   )
