@@ -49,9 +49,9 @@ function About() {
               and all things audio. Whether you are here to find the latest trending podcasts, engage in conversations with like-minded
               individuals, or simply relax and enjoy the soothing sounds, PodClub is the place where your audio passions come alive.
             </p>
-            <p className="text-lg leading-relaxed text-black hover:text-gray-100 transition-colors duration-300">
+            {/* <p className="text-lg leading-relaxed text-black hover:text-gray-100 transition-colors duration-300">
               Join us, and discover a space to connect, share, and celebrate the art of sound.
-            </p>
+            </p> */}
           </div>
         </section>
 
