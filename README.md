@@ -89,9 +89,9 @@ To get a local copy of the project up and running, follow these steps.
 Contributions are welcome! To contribute:
 
     Fork the project.
-    Create your feature branch (git checkout -b feature/AmazingFeature).
-    Commit your changes (git commit -m 'Add some AmazingFeature').
-    Push to the branch (git push origin feature/AmazingFeature).
+    Create your feature branch (git checkout ).
+    Commit your changes (git commit -m 'first version').
+    Push to the branch (git push origin ).
     Open a pull request.
 
 ## License
