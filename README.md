@@ -64,7 +64,7 @@ This command runs the app in development mode. Open http://localhost:3000 to vie
 
 4. ## Folder Structure  
 
- ``plaintext
+ ```plaintext
 PodClub-frontend/
 ├── public/                  # Static assets
 ├── src/
