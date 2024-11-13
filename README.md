@@ -32,9 +32,8 @@ This repository contains the front-end code for **PodClub**. The main purpose of
 
 ## Technologies Used
 
-- **Frontend**: ReactJS, HTML5, CSS3, JavaScript (ES6+)
-- **State Management**: Redux (optional)
-- **Styling**: CSS Modules / Styled Components (if used)
+- **Frontend**: ReactJS, JavaScript (ES6+)
+- **Styling**: CSS Modules 
 - **Routing**: React Router
 - **Package Manager**: npm
 
@@ -86,6 +85,6 @@ PodClub-frontend/
     Commit your changes (git commit -m 'Add some AmazingFeature').
     Push to the branch (git push origin feature/AmazingFeature).
     Open a pull request.
-    
+
 ## License 
 This project is licensed under the MIT License - see the LICENSE file for details.
