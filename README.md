@@ -100,7 +100,9 @@ Contributions are welcome! To contribute:
 2. Create your feature branch:
    ```bash
    git checkout -b feature/AmazingFeature
-
+3. Commit the changes:
+   ```bash
+     Commit your changes (git commit -m 'first version').
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
