@@ -53,7 +53,8 @@ To get a local copy of the project up and running, follow these steps.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/PodClub-frontend.git
+   git clone https://github.com/Jeremy-3/Podclub.git
+   git clone git@github.com:Jeremy-3/Podclub.git
    cd PodClub-frontend
 
    ```
