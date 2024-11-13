@@ -65,28 +65,28 @@ This command runs the app in development mode. Open http://localhost:3000 to vie
 4. ## Folder Structure  
 
  ```plaintext
-PodClub-frontend/
-├── public/                  # Static assets
-├── src/
-│   ├── components/          # Reusable components
-│   ├── pages/               # Main page components
-│   ├── services/            # API calls and services
-│   ├── assets               # For support files
-│   ├── App.js               # Main app component
-│   └── index.js             # Main entry point
-├── .gitignore
-├── package.json
-└── README.md
+ PodClub-frontend/
+ ├── public/                  # Static assets
+ ├── src/
+ │   ├── components/          # Reusable components
+ │   ├── pages/               # Main page components
+ │   ├── services/            # API calls and services
+ │   ├── assets               # For support files
+ │   ├── App.js               # Main app component
+ │   └── index.js             # Main entry point
+ ├── .gitignore
+ ├── package.json
+ └── README.md
 
 ## Contributing
 
- Contributions are welcome! To contribute:
+Contributions are welcome! To contribute:
 
     Fork the project.
     Create your feature branch (git checkout -b feature/AmazingFeature).
     Commit your changes (git commit -m 'Add some AmazingFeature').
     Push to the branch (git push origin feature/AmazingFeature).
     Open a pull request.
-
+    
 ## License 
 This project is licensed under the MIT License - see the LICENSE file for details.
