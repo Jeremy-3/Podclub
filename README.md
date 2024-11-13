@@ -58,30 +58,25 @@ To get a local copy of the project up and running, follow these steps.
 
    ```
 
-2. **Install dependencies**:
+2. Install dependencies:
 
-   ```bash
-   npm install
+3. npm install
 
-   ```
+4. Start the development server:
 
-3. **Start the development server**:
-   ```bash
-   npm install
-   ```
+    npm start
 
-This command runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+    This command runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
-4. ## Folder Structure
-
-```plaintext
+5. Folder Structure
+  ```plaintext
 PodClub-frontend/
 ├── public/                  # Static assets
 ├── src/
 │   ├── components/          # Reusable components
 │   ├── pages/               # Main page components
 │   ├── services/            # API calls and services
-│   ├── assets               # For support files
+│   ├── assets/              # For support files
 │   ├── App.js               # Main app component
 │   └── index.js             # Main entry point
 ├── .gitignore
@@ -92,12 +87,12 @@ PodClub-frontend/
 
 Contributions are welcome! To contribute:
 
-   Fork the project.
-   Create your feature branch (git checkout -b feature/AmazingFeature).
-   Commit your changes (git commit -m 'Add some AmazingFeature').
-   Push to the branch (git push origin feature/AmazingFeature).
-   Open a pull request.
+    Fork the project.
+    Create your feature branch (git checkout -b feature/AmazingFeature).
+    Commit your changes (git commit -m 'Add some AmazingFeature').
+    Push to the branch (git push origin feature/AmazingFeature).
+    Open a pull request.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
