@@ -64,7 +64,19 @@ This command runs the app in development mode. Open http://localhost:3000 to vie
 
 4. ## Folder Structure  
 
-PodClub-frontend/ ├── public/ # Static assets ├── src/ │ ├── components/ # Reusable components │ ├── pages/ # Main page components │ ├── services/ # API calls and services │ ├── assets # For support files │ ├── App.js # Main app component │ └── index.js # Main entry point ├── .gitignore ├── package.json └── README.md
+ ``plaintext
+PodClub-frontend/
+├── public/                  # Static assets
+├── src/
+│   ├── components/          # Reusable components
+│   ├── pages/               # Main page components
+│   ├── services/            # API calls and services
+│   ├── assets               # For support files
+│   ├── App.js               # Main app component
+│   └── index.js             # Main entry point
+├── .gitignore
+├── package.json
+└── README.md
 
 ## Contributing
 
