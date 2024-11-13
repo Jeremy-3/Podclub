@@ -96,9 +96,10 @@ To get a local copy of the project up and running, follow these steps.
 Contributions are welcome! To contribute:
    
     Fork the project.
+    
     ```bash
     Create your feature branch (git checkout )
-    
+
     ```
     ```bash
     Commit your changes (git commit -m 'first version').
