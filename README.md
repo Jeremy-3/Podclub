@@ -84,8 +84,6 @@ PodClub-frontend/
 └── README.md
 ``
 
-
-
 ## Contributing
 
 Contributions are welcome! To contribute:
