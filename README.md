@@ -103,6 +103,7 @@ Contributions are welcome! To contribute:
 3. Commit the changes:
    ```bash
      Commit your changes (git commit -m 'first version').
-## License
+
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
