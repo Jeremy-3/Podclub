@@ -54,7 +54,7 @@ To get a local copy of the project up and running, follow these steps.
 
    ```bash
    git clone https://github.com/Jeremy-3/Podclub.git
-   
+
    ```
    ```bash
    git clone git@github.com:Jeremy-3/Podclub.git
@@ -94,12 +94,24 @@ To get a local copy of the project up and running, follow these steps.
 ## Contributing
 
 Contributions are welcome! To contribute:
-
+   
     Fork the project.
-    Create your feature branch (git checkout ).
+    ```bash
+    Create your feature branch (git checkout )
+    
+    ```
+    ```bash
     Commit your changes (git commit -m 'first version').
+
+    ```
+    ```bash
     Push to the branch (git push origin ).
+
+    ```
+    ```bash
     Open a pull request.
+
+    ```
 
 ## License
 
