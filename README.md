@@ -3,6 +3,7 @@
 **PodClub** is a social platform for people interested in music and podcasts. The front-end is built using ReactJS, enabling users to create and join group channels, share messages, and interact with others who have similar interests.
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -16,11 +17,12 @@
 
 ## Project Overview
 
-This repository contains the front-end code for **PodClub**. The main purpose of this app is to allow users to create group channels related to music and podcasts, send messages, share images, and join in discussions. Admins can manage channels and oversee user activity. 
+This repository contains the front-end code for **PodClub**. The main purpose of this app is to allow users to create group channels related to music and podcasts, send messages, share images, and join in discussions. Admins can manage channels and oversee user activity.
 
 ## Features
 
 ### User Features
+
 - **Authentication**: Users can register and log in.
 - **Channel Management**: Users can create, update, and delete group channels (up to 5 per user).
 - **Messaging**: Send, edit, and delete messages within group chats.
@@ -28,12 +30,13 @@ This repository contains the front-end code for **PodClub**. The main purpose of
 - **Join Channels**: Users can join channels upon invitation and report offensive users.
 
 ### Admin Features
+
 - **Manage Users**: View all channels, ban reported users, and unban previously banned users.
 
 ## Technologies Used
 
 - **Frontend**: ReactJS, JavaScript (ES6+)
-- **Styling**: CSS Modules 
+- **Styling**: CSS Modules
 - **Routing**: React Router
 - **Package Manager**: npm
 
@@ -48,45 +51,53 @@ To get a local copy of the project up and running, follow these steps.
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/your-username/PodClub-frontend.git
    cd PodClub-frontend
 
+   ```
+
 2. **Install dependencies**:
+
    ```bash
    npm install
 
+   ```
+
 3. **Start the development server**:
    ```bash
- npm install
+   npm install
+   ```
 
 This command runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
-4. ## Folder Structure  
+4. ## Folder Structure
 
- ```plaintext
- PodClub-frontend/
- ├── public/                  # Static assets
- ├── src/
- │   ├── components/          # Reusable components
- │   ├── pages/               # Main page components
- │   ├── services/            # API calls and services
- │   ├── assets               # For support files
- │   ├── App.js               # Main app component
- │   └── index.js             # Main entry point
- ├── .gitignore
- ├── package.json
- └── README.md
+```plaintext
+PodClub-frontend/
+├── public/                  # Static assets
+├── src/
+│   ├── components/          # Reusable components
+│   ├── pages/               # Main page components
+│   ├── services/            # API calls and services
+│   ├── assets               # For support files
+│   ├── App.js               # Main app component
+│   └── index.js             # Main entry point
+├── .gitignore
+├── package.json
+└── README.md
 
 ## Contributing
 
 Contributions are welcome! To contribute:
 
-    Fork the project.
-    Create your feature branch (git checkout -b feature/AmazingFeature).
-    Commit your changes (git commit -m 'Add some AmazingFeature').
-    Push to the branch (git push origin feature/AmazingFeature).
-    Open a pull request.
-    
-## License 
+   Fork the project.
+   Create your feature branch (git checkout -b feature/AmazingFeature).
+   Commit your changes (git commit -m 'Add some AmazingFeature').
+   Push to the branch (git push origin feature/AmazingFeature).
+   Open a pull request.
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+```
