@@ -51,13 +51,13 @@ To get a local copy of the project up and running, follow these steps.
    ```bash
    git clone https://github.com/your-username/PodClub-frontend.git
    cd PodClub-frontend
-   
+
 2. **Install dependencies**:
-  ```bash
+   ```bash
    npm install
 
 3. **Start the development server**:
-  ```bash
+   ```bash
  npm install
 
 This command runs the app in development mode. Open http://localhost:3000 to view it in the browser.
