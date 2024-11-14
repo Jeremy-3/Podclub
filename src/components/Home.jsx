@@ -57,9 +57,10 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Episode Card 1 */}
             <div className="bg-white shadow-md p-6 rounded-lg">
-              <img src="https://i.ytimg.com/vi/9O_0UcYqrTk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgEyh_MA8=&rs=AOn4CLBtSee8h-4YzbtNep_1gNKopwLbnA" alt="Episode " className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-xl font-bold">Episode 66</h3>
-              <p>SHOW YOU OFF Ft (SAVARA)
+              <img src="https://lite-images-i.scdn.co/image/ab67656300005f1f82efc4d612291ac3a455d0db " alt="Episode-2" />
+             <h3 className="text-xl font-bold">Episode 66</h3>
+              <p>Fluffy Goes To India | Gabriel Iglesias
+
               </p>
             </div>
             {/* Episode Card 2 */}
@@ -70,9 +71,11 @@ const Home = () => {
             </div>
             {/* Episode Card 3 */}
             <div className="bg-white shadow-md p-6 rounded-lg">
-              <img src="https://pbs.twimg.com/media/GUTFByRW4AAKbTI.jpg" alt="Episode 35" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <img src="https://s.yimg.com/ny/api/res/1.2/yK.xyeCYPEqnl6Hk3uJSzQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMg--/https://media.zenfs.com/en/buzzfeed_articles_778/dc265499563da586732ff0a69e241230" 
+              alt="Episode 35" 
+              className="w-full h-48 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold">Episode 35</h3>
-              <p>The97sPodcast Episode 35-wHO iS Andie
+              <p>Kids this Days.
               </p>
             </div>
           </div>
