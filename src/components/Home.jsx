@@ -12,10 +12,13 @@ const Home = () => {
           loop
           muted
         />
-           <div className="absolute bottom-10 right-10 text-right z-10">
-          <h1 className="text-9xl font-bold mb-4 max-w-2xl opacity-80">News you can watch</h1>
-          <p className="text-3xl max-w-md opacity-80">Stay updated on what's happening in North Fortberry and beyond.</p>
-
+          <div className="absolute bottom-10 right-10 text-right z-10 max-w-2xl">
+            <h1 className="text-[10rem] font-bold mb-4 opacity-90">
+              News you can watch
+            </h1>
+            <p className="text-5xl opacity-90">
+              Stay updated on what's happening in North Fortberry and beyond.
+            </p>
           </div>
 
 
@@ -43,23 +46,6 @@ const Home = () => {
         </div>
       </header>
 
-      {/* Podcast Section */}
-      <section className="bg-black text-white py-20">
-        <div className="container mx-auto px-4 text-center">
-          <div className="bg-red-500 p-10 inline-block rounded-lg mb-6">
-            <p className="text-2xl font-bold mb-4">Watch now</p>
-            <div className="flex flex-col space-y-4">
-              <button className="bg-white text-black py-2 px-4 rounded">Spotify</button>
-              <button className="bg-white text-black py-2 px-4 rounded">Apple Podcast</button>
-              <button className="bg-white text-black py-2 px-4 rounded">Google Podcasts</button>
-            </div>
-          </div>
-          <div className="text-center max-w-xl mx-auto">
-            <p className="mb-6">Write a paragraph that talks about your video podcast here.</p>
-            <button className="bg-yellow-500 text-white py-2 px-6 rounded-full font-bold">Login to Enjoy</button>
-          </div>
-        </div>
-      </section>
 
       {/* Episodes Section */}
       <section className="bg-gray-200 py-20">
@@ -71,25 +57,65 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Episode Card 1 */}
             <div className="bg-white shadow-md p-6 rounded-lg">
-              <img src="image1.jpg" alt="Episode 1" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-xl font-bold">Episode 37</h3>
-              <p>Citizens React to Local Economic Boom</p>
+              <img src="https://i.ytimg.com/vi/9O_0UcYqrTk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgEyh_MA8=&rs=AOn4CLBtSee8h-4YzbtNep_1gNKopwLbnA" alt="Episode " className="w-full h-48 object-cover rounded-lg mb-4" />
+              <h3 className="text-xl font-bold">Episode 66</h3>
+              <p>SHOW YOU OFF Ft (SAVARA)
+              </p>
             </div>
             {/* Episode Card 2 */}
             <div className="bg-white shadow-md p-6 rounded-lg">
-              <img src="image2.jpg" alt="Episode 2" className="w-full h-48 object-cover rounded-lg mb-4" />
-              <h3 className="text-xl font-bold">Episode 36</h3>
-              <p>Citizens React to Local Economic Boom</p>
+              <img src="https://i.scdn.co/image/ab6765630000ba8a8a9df8f640f0ba4e62085c40" alt="Episode 2" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <h3 className="text-xl font-bold">Episode 2</h3>
+              <p>Blue Uniform - Mkurugenzi Minisodes 7</p>
             </div>
             {/* Episode Card 3 */}
             <div className="bg-white shadow-md p-6 rounded-lg">
-              <img src="image3.jpg" alt="Episode 3" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <img src="https://pbs.twimg.com/media/GUTFByRW4AAKbTI.jpg" alt="Episode 35" className="w-full h-48 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-bold">Episode 35</h3>
-              <p>The New City Ordinance Explained</p>
+              <p>The97sPodcast Episode 35-wHO iS Andie
+              </p>
             </div>
           </div>
+
+
         </div>
       </section>
+      {/* Podcast Section */}
+      <div className="min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex flex-col justify-center items-center p-4"> 
+        <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-8 max-w-lg w-full space-y-6"> 
+          <header className="text-center"> 
+            <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">
+              Watch Now
+            </h1> 
+            </header> 
+            <section className="space-y-4"> 
+              <div className="flex justify-around"> 
+                <button className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-2 px-6 rounded transition duration-300">
+                  Spotify
+                </button> 
+                <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold text-lg py-2 px-6 rounded transition duration-300">
+                    Apple Podcast
+                </button> 
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold text-lg py-2 px-6 rounded transition duration-300">
+                  Google Podcasts
+                </button> 
+                </div> 
+              <div className="text-center"> 
+                <p className="text-gray-700 dark:text-gray-400 text-lg leading-7">
+                   Write a paragraph that talks about your video podcast here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse explicabo maiores omnis! Magni quae nobis officia, fugiat in aperiam nam a tenetur tempora cum expedita dolorum odio neque. 
+                   </p> 
+              </div> 
+              </section> 
+              <footer className="text-center space-y-4"> 
+                <button className="bg-yellow-500 hover:bg-yellow-600 text-white text-lg py-2 px-6 rounded transition duration-300">
+                  Login to Enjoy
+                </button> 
+              </footer>
+            </div> 
+            
+          </div>
+
+    
     </div>
   );
 };
