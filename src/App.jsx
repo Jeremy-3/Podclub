@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import Register from './components/Register'
-import Login from './components/Login'
+// import './App.css'
+import { BrowserRouter as Router } from 'react-router-dom';
 
+
+import Home from './components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Register />
-      <Login />
-      <div>
+    <Router> {/* Wrap your components with BrowserRouter */}
+      <Home />
+      {/* <div>
         <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,11 +33,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
-
-      {/* Include the About component here */}
-      
-      
+      </p> */}
+    </Router> {/* Ensure this is wrapping your entire app */}
     </>
   
   )
