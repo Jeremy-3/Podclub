@@ -14,7 +14,7 @@ const Login = () => {
     setError(null);
 
     try {
-      const response = await fetch("/login", {
+      const response = await fetch("https://podclub-backend-1.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
