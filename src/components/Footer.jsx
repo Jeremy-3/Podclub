@@ -1,26 +1,39 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+  const navigate = useNavigate();
+
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
+
   return (
-    <footer className="bg-black p-4 w-full absolute bottom-0 left-0">
-      <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
+    <footer className="bg-black p-4 w-full">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-screen-xl mx-auto">
         {/* PodClub Branding */}
-        <div className="text-white text-xl font-bold">
+        <div className="text-white text-xl font-bold mb-4 md:mb-0">
           PodClub
         </div>
 
         {/* Footer Links */}
-        <div className="flex space-x-6">
-          <span className="text-white hover:text-orange-500 transition duration-300 cursor-pointer">
+        <div className="flex space-x-6 mb-4 md:mb-0">
+          <span
+            onClick={() => handleNavigate('/')}
+            className="text-white hover:text-orange-500 transition duration-300 cursor-pointer"
+          >
             Home
           </span>
-          <span className="text-white hover:text-orange-500 transition duration-300 cursor-pointer">
+          <span
+            onClick={() => handleNavigate('/about')}
+            className="text-white hover:text-orange-500 transition duration-300 cursor-pointer"
+          >
             About
           </span>
         </div>
 
-        {/* Social Media Links between About and Copyright */}
-        <div className="flex space-x-4">
+        {/* Social Media Links */}
+        <div className="flex space-x-4 mb-4 md:mb-0">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram text-white hover:text-orange-500 transition duration-300 cursor-pointer text-xl"></i>
           </a>

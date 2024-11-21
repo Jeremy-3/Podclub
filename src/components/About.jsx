@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function About() {
+  const navigate = useNavigate();
+
+  const handleJoinNowClick = () => {
+    // Navigate to the register page
+    navigate('/register');
+  };
+
   return (
     <div 
       className="min-h-screen bg-cover bg-center bg-no-repeat" 
@@ -49,28 +57,20 @@ function About() {
               and all things audio. Whether you are here to find the latest trending podcasts, engage in conversations with like-minded
               individuals, or simply relax and enjoy the soothing sounds, PodClub is the place where your audio passions come alive.
             </p>
-            {/* <p className="text-lg leading-relaxed text-black hover:text-gray-100 transition-colors duration-300">
-              Join us, and discover a space to connect, share, and celebrate the art of sound.
-            </p> */}
           </div>
         </section>
 
         <section className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 mt-12 transform hover:scale-105 hover:bg-orange-600">
-          {/* <p className="text-lg leading-relaxed text-black mb-4 hover:text-gray-100 transition-colors duration-300">
-            Welcome to <strong className="text-black-600">PodClub</strong> – your ultimate destination for everything related to podcasts and music.
-          </p>
-          <p className="text-lg leading-relaxed text-black hover:text-gray-100 transition-colors duration-300">
-            At PodClub, we believe in the power of sound, the joy of music, and the magic of storytelling through podcasts.
-            Whether you are a creator or an enthusiast, our platform brings together people with shared passions to connect,
-            socialize, and discover new content.
-          </p> */}
           <p className="text-lg leading-relaxed text-black hover:text-gray-100 mt-6 transition-colors duration-300">
-              Join us, and discover a space to connect, share, and celebrate the art of sound.
-            </p>
+            Join us, and discover a space to connect, share, and celebrate the art of sound.
+          </p>
         </section>
 
         <footer className="text-center mt-8">
-          <button className="bg-orange-600 text-white py-3 px-6 rounded-full text-lg transition-all duration-300 hover:bg-orange-700 transform hover:scale-105">
+          <button 
+            onClick={handleJoinNowClick} 
+            className="bg-orange-600 text-white py-3 px-6 rounded-full text-lg transition-all duration-300 hover:bg-orange-700 transform hover:scale-105"
+          >
             Join Now
           </button>
         </footer>
