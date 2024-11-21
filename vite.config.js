@@ -5,9 +5,9 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:5000',  // Backend server address
-        changeOrigin: true,  // Adjusts the origin of the request to match the target
-        rewrite: (path) => path.replace(/^\/api/, ''),  // Removes "/api" prefix before forwarding to backend
+        target: ' https://podclub-backend-1.onrender.com',  
+        changeOrigin: true,  
+        rewrite: (path) => path.replace(/^\/api/, ''),  
       },
     },
   },
